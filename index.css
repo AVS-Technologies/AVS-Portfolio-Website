@@ -1,0 +1,26 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+:root{
+    --text : #000000;
+    --primary: #FA7869;
+    --back: #FDEDED;
+    --back2: #1A1A1A;
+}
+
+/*  
+    #########################
+    ############### NAVBAR
+    ############################
+*/
+
+.nav-item{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-item .nav-link{
+    margin: 0px;
+    padding: 0px;
+}
