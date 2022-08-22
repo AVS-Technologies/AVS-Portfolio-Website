@@ -1,10 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    font-size: 20px;
 }
 
 :root{
     --text : #000000;
+    --text2 : #FFFFFF;
     --primary: #FA7869;
     --back: #FDEDED;
     --back2: #1A1A1A;
@@ -16,6 +18,12 @@ body{
     ############################
 */
 
+.navbar{
+    background-color: var(--primary);
+    margin: 0px;
+    padding: 0px;
+}
+
 .nav-item{
     margin: 0px;
     padding: 0px;
@@ -23,4 +31,77 @@ body{
 .nav-item .nav-link{
     margin: 0px;
     padding: 0px;
+
+    font-size: 1em;
+    color: var(--text2);
+
+    margin-top: 2em;
+    margin-right: 3.5em;
+
+}
+.nav-item.nav-link.active{
+    margin: 0px;
+    padding: 0px;
+
+    font-size: 1em;
+    color: var(--back);
+    font-weight: 700;
+
+}
+
+/*  
+    #########################
+    ############### HERO
+    ############################
+*/
+
+#hero{
+    height: 55em;
+    background-color: var(--primary);
+}
+
+.hero_heading h1{
+    text-align: center;
+    padding-top: 3em;
+
+    font-size: 3em;
+    color: var(--text2);
+    font-weight: bold;
+}
+
+.hero_heading p{
+    text-align: center;
+    padding-top: 0.25em;
+
+    font-size: 1em;
+    color: var(--text2);
+    opacity: 0.8;
+    font-weight: 400;
+}
+
+.hero_heading button{
+    text-align: center;
+    margin-top: 1.5em;
+
+    height: 3em;
+    width: 15em;
+
+    font-size: 1.2em;
+    color: var(--primary);
+    background-color: var(--text2);
+    opacity: 0.8;
+    font-weight: 600;
+
+    border-radius: 0.25em;
+    border: none;
+    outline: none;
+}
+
+.hero_img img{
+    height: 40em;
+    width: 44em;
+
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
 }
