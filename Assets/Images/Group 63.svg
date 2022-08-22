@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="127" height="127" viewBox="0 0 127 127">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.073" x2="1.073" y2="1.052" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d86a6a"/>
+      <stop offset="1" stop-color="#a73d3d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.073" x2="1.073" y2="1.052" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d86a6a"/>
+      <stop offset="1" stop-color="#d91c1c"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_63" data-name="Group 63" transform="translate(-1386.764 -2297.588)">
+    <rect id="Rectangle_367" data-name="Rectangle 367" width="127" height="127" rx="13" transform="translate(1386.764 2297.588)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_368" data-name="Rectangle 368" width="127" height="127" rx="13" transform="translate(1386.764 2297.588)" fill="url(#linear-gradient-2)"/>
+    <path id="Layer_22" data-name="Layer 22" d="M38.039,13.312a3.6,3.6,0,1,0,3.6,3.6A3.6,3.6,0,0,0,38.039,13.312Zm-10.812,0a3.6,3.6,0,1,0,3.6,3.6A3.6,3.6,0,0,0,27.227,13.312Zm-10.812,0a3.6,3.6,0,1,0,3.6,3.6A3.6,3.6,0,0,0,16.416,13.312Zm0,0a3.6,3.6,0,1,0,3.6,3.6A3.6,3.6,0,0,0,16.416,13.312Zm10.812,0a3.6,3.6,0,1,0,3.6,3.6A3.6,3.6,0,0,0,27.227,13.312Zm10.812,0a3.6,3.6,0,1,0,3.6,3.6A3.6,3.6,0,0,0,38.039,13.312Zm0,0a3.6,3.6,0,1,0,3.6,3.6A3.6,3.6,0,0,0,38.039,13.312Zm-10.812,0a3.6,3.6,0,1,0,3.6,3.6A3.6,3.6,0,0,0,27.227,13.312Zm-10.812,0a3.6,3.6,0,1,0,3.6,3.6A3.6,3.6,0,0,0,16.416,13.312ZM66.87,2.5H9.208A7.208,7.208,0,0,0,2,9.708V63.767a7.208,7.208,0,0,0,7.208,7.208H66.87a7.208,7.208,0,0,0,7.208-7.208V9.708A7.208,7.208,0,0,0,66.87,2.5Zm0,61.267H9.208V31.331H66.87Zm0-39.643H9.208V9.708H66.87Zm-28.831-3.6a3.6,3.6,0,1,0-3.6-3.6A3.6,3.6,0,0,0,38.039,20.52Zm-10.812,0a3.6,3.6,0,1,0-3.6-3.6A3.6,3.6,0,0,0,27.227,20.52Zm-10.812,0a3.6,3.6,0,1,0-3.6-3.6A3.6,3.6,0,0,0,16.416,20.52Zm0-7.208a3.6,3.6,0,1,0,3.6,3.6A3.6,3.6,0,0,0,16.416,13.312Zm10.812,0a3.6,3.6,0,1,0,3.6,3.6A3.6,3.6,0,0,0,27.227,13.312Zm10.812,0a3.6,3.6,0,1,0,3.6,3.6A3.6,3.6,0,0,0,38.039,13.312Z" transform="translate(1412.225 2324.026)" fill="#fff"/>
+  </g>
+</svg>

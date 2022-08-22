@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="127" height="127" viewBox="0 0 127 127">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.073" x2="1.073" y2="1.052" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d86a6a"/>
+      <stop offset="1" stop-color="#a73d3d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.073" x2="1.073" y2="1.052" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7f6ad8"/>
+      <stop offset="1" stop-color="#2e1dc4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_65" data-name="Group 65" transform="translate(-930.764 -2815.892)">
+    <rect id="Rectangle_369" data-name="Rectangle 369" width="127" height="127" rx="13" transform="translate(930.764 2815.892)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_370" data-name="Rectangle 370" width="127" height="127" rx="13" transform="translate(930.764 2815.892)" fill="url(#linear-gradient-2)"/>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(959.132 2841.352)">
+      <path id="Path_921" data-name="Path 921" d="M46.145,5H24.119A6.119,6.119,0,0,0,18,11.119V64.961a6.119,6.119,0,0,0,6.119,6.119H46.145a6.119,6.119,0,0,0,6.119-6.119V11.119A6.119,6.119,0,0,0,46.145,5Zm-25.7,7.342H30.506l.954,3.965a1.224,1.224,0,0,0,1.224.93h4.895a1.224,1.224,0,0,0,1.224-.93l.954-3.965H49.816V56.4H20.447Zm3.671-4.895H46.145A3.671,3.671,0,0,1,49.6,9.895H38.473l-.22.086-.184.122a.942.942,0,0,0-.306.343,1.224,1.224,0,0,0-.11.233v.086L36.625,14.79H33.639l-.954-3.965v-.086a1.6,1.6,0,0,0-.233-.416,1.224,1.224,0,0,0-.171-.159l-.184-.122-.22-.073h-.245l-.171-.073H20.668a3.671,3.671,0,0,1,3.451-2.447ZM46.145,68.633H24.119a3.671,3.671,0,0,1-3.671-3.671V58.843H49.816v6.119A3.671,3.671,0,0,1,46.145,68.633Z" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <path id="Path_922" data-name="Path 922" d="M32.671,50a3.671,3.671,0,1,0,3.671,3.671A3.671,3.671,0,0,0,32.671,50Zm0,4.895a1.224,1.224,0,1,1,1.224-1.224A1.224,1.224,0,0,1,32.671,54.895Z" transform="translate(2.461 10.067)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
