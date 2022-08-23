@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="958" height="904" viewBox="0 0 958 904">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_418" data-name="Rectangle 418" width="958" height="904" transform="translate(0 6696)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(0 -6696)" clip-path="url(#clip-path)">
+    <g id="Group_67" data-name="Group 67">
+      <rect id="Rectangle_347" data-name="Rectangle 347" width="960" height="904" transform="translate(-1.985 6695.83)" fill="#1a1a1a"/>
+      <g id="Ellipse_102" data-name="Ellipse 102" transform="translate(669 7303.83)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5" stroke-dasharray="10">
+        <circle cx="200" cy="200" r="200" stroke="none"/>
+        <circle cx="200" cy="200" r="197.5" fill="none"/>
+      </g>
+      <g id="Ellipse_101" data-name="Ellipse 101" transform="translate(-262 7140.83)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5" stroke-dasharray="10">
+        <circle cx="200" cy="200" r="200" stroke="none"/>
+        <circle cx="200" cy="200" r="197.5" fill="none"/>
+      </g>
+      <g id="Ellipse_103" data-name="Ellipse 103" transform="translate(103 7303.83)" fill="none" stroke="#fa7869" stroke-linecap="round" stroke-width="5" stroke-dasharray="10">
+        <circle cx="65" cy="65" r="65" stroke="none"/>
+        <circle cx="65" cy="65" r="62.5" fill="none"/>
+      </g>
+      <g id="Ellipse_104" data-name="Ellipse 104" transform="translate(669 7254.83)" fill="none" stroke="#fa7869" stroke-linecap="round" stroke-width="5" stroke-dasharray="10">
+        <circle cx="65" cy="65" r="65" stroke="none"/>
+        <circle cx="65" cy="65" r="62.5" fill="none"/>
+      </g>
+      <g id="Ellipse_105" data-name="Ellipse 105" transform="translate(436 7244.83)" fill="none" stroke="#fa7869" stroke-linecap="round" stroke-width="5" stroke-dasharray="10">
+        <circle cx="17.5" cy="17.5" r="17.5" stroke="none"/>
+        <circle cx="17.5" cy="17.5" r="15" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
