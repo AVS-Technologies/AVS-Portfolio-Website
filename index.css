@@ -1,12 +1,12 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     font-size: 20px;
 }
 
-:root{
-    --text : #000000;
-    --text2 : #FFFFFF;
+:root {
+    --text: #000000;
+    --text2: #FFFFFF;
     --primary: #FA7869;
     --back: #FDEDED;
     --back2: #1A1A1A;
@@ -18,35 +18,33 @@ body{
     ############################
 */
 
-.navbar{
+.navbar {
     background-color: var(--primary);
     margin: 0px;
     padding: 0px;
 }
 
-.nav-item{
+.nav-item {
     margin: 0px;
     padding: 0px;
 }
-.nav-item .nav-link{
+
+.nav-item .nav-link {
     margin: 0px;
     padding: 0px;
 
-    font-size: 1em;
+    font-size: 0.8em;
     color: var(--text2);
 
     margin-top: 2em;
     margin-right: 3.5em;
 
 }
-.nav-item.nav-link.active{
-    margin: 0px;
-    padding: 0px;
 
-    font-size: 1em;
-    color: var(--back);
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    font-size: 0.8em;
+    color: var(--text2);
     font-weight: 700;
-
 }
 
 /*  
@@ -55,12 +53,12 @@ body{
     ############################
 */
 
-#hero{
-    height: 55em;
+#hero {
+    height: 60em;
     background-color: var(--primary);
 }
 
-.hero_heading h1{
+.hero_heading h1 {
     text-align: center;
     padding-top: 3em;
 
@@ -69,7 +67,7 @@ body{
     font-weight: bold;
 }
 
-.hero_heading p{
+.hero_heading p {
     text-align: center;
     padding-top: 0.25em;
 
@@ -79,9 +77,9 @@ body{
     font-weight: 400;
 }
 
-.hero_heading button{
+.hero_heading button {
     text-align: center;
-    margin-top: 1.5em;
+    margin: 1.5em 0 4em 0;
 
     height: 3em;
     width: 15em;
@@ -97,11 +95,21 @@ body{
     outline: none;
 }
 
-.hero_img img{
-    height: 40em;
-    width: 44em;
+.hero_img{
+    position: relative;
+}
 
-    margin: 0 auto;
+.hero_img>img{
+
+    position: absolute;
+    right: 25%;
+    top: 25%;
+
+    /* margin-top: 3em; */
+    height: 30em;
+    width: 33em;
+
+    /* margin: 0 auto; */
     text-align: center;
     justify-content: center;
 }
@@ -113,24 +121,20 @@ body{
     ############################
 */
 
-body{
-    overflow-x: hidden;
-}
-#section1 .box{
-    height: auto;
-}
-.content{
-    padding-top: 150px;
-    padding-left: 160px;
+.content {
+    margin-top: 4em;
 }
 
-#image1{
-    height: 700px;
-    width: 900px;
+#section1 .content2{
+    margin-top: -3.5em;
 }
 
+#image1 {
+    height: 35em;
+    width: 45em;
+}
 
-.content h1{
+.content h1 {
 
     font-size: 42px;
     font-family: 'Roboto Slab', serif;
@@ -139,7 +143,7 @@ body{
     margin-bottom: 40px;
 }
 
-.content p{
+.content p {
     color: #000000;
     opacity: 0.8;
     font-size: 15px;
@@ -152,7 +156,7 @@ body{
 
 /* section2 */
 
-.boxx p{
+.boxx p {
     /* margin-top: ; */
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -164,7 +168,7 @@ body{
     margin-bottom: 0px;
 }
 
-.boxx h1{
+.boxx h1 {
     font-family: 'Roboto Slab', serif;
     font-size: 50px;
     font-weight: 900;
@@ -173,11 +177,11 @@ body{
     margin-bottom: 20px;
 }
 
-.boxx2 img{
+.boxx2 img {
     margin-bottom: 30px;
 }
 
-.boxx2 h1{
+.boxx2 h1 {
     font-family: 'Roboto Slab', serif;
     font-size: 26px;
     font-weight: 700;
@@ -186,7 +190,7 @@ body{
     margin-bottom: 20px;
 }
 
-.boxx2 p{
+.boxx2 p {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: medium;
@@ -197,22 +201,22 @@ body{
     margin-bottom: 20px;
 }
 
-.boxx2 .highlight{
+.boxx2 .highlight {
     margin-bottom: 55px;
 }
 
-.boxx2 .highlight a{
+.boxx2 .highlight a {
     color: #FA7869;
     /* margin-bottom: 55px; */
     text-decoration: none;
 }
 
-.boxx2 .highlight a:hover{
+.boxx2 .highlight a:hover {
     border-bottom: 1px solid #fa7769dd;
     /* margin-bottom: 55px; */
 }
 
-.boxx2 img{
+.boxx2 img {
     height: 100px;
     width: 100px;
 }
@@ -223,15 +227,25 @@ body{
     ############################
 */
 
-#section3 .box{
-    height: auto;
-    padding-top:70px ;
-    padding-left:80px ;
-    padding-bottom:50px ;
-    padding-right: 60px;
+/* #section3 .box { */
+    /* height: auto;
+    padding-top: 70px;
+    padding-left: 80px;
+    padding-bottom: 50px;
+    padding-right: 60px; */
+/* } */
+
+#section3{
+    background-color: #FDEDED;
+    padding: 4em 0;
 }
 
-.context h1{
+#section3 .context1 img{
+    height: 100%;
+    width: 80%;
+}
+
+.context2 h1 {
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     font-size: 46px;
@@ -240,53 +254,61 @@ body{
     text-align: left;
 }
 
-.context p{
+.context2 p {
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     font-size: 21px;
     opacity: 80%;
     text-align: left;
 }
 
-.context li{
+.context2 li {
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 50px;
+    margin-top: 50px;
     font-size: 21px;
     opacity: 80%;
     text-align: left;
+}
+
+.context2 ul{
+    margin: 0;
 }
 
 /* section4 */
 
-.box1{
-    height: 300px;
-    text-align: center;
-    background-color:white;
+#section4{
+    padding: 4em 0;
 }
 
-.head{
-    padding-top: 100px;
+.box1 {
+    /* height: 300px; */
+    text-align: center;
+    background-color: white;
+}
+
+.head {
+    /* padding-top: 100px; */
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
 }
 
-.para{
-margin-top: 30px;
-font-family: 'Poppins', sans-serif;
-letter-spacing: 0px;
-color: #000000;
-opacity: 0.7;
+.para {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.7;
+    margin: 30px 0 0 0;
 
 }
 
 /* section5 */
 
-.im img{
+.im img {
     height: 450px;
     width: 100%;
 }
 
-.im .kabra{
+.im .kabra {
     /* display: none; */
     visibility: hidden;
     margin-top: -225px;
@@ -296,7 +318,7 @@ opacity: 0.7;
     opacity: 0.8;
 }
 
-.im .kabra:hover{
+.im .kabra:hover {
     /* display:block; */
     visibility: visible;
     margin-top: -225px;
@@ -310,21 +332,22 @@ opacity: 0.7;
 
 /* section6 */
 
-.back_ground2{
+.back_ground2 {
     background-color: #FDEDED;
     /* height: 904px; */
     height: auto;
     padding: 70px 50px;
 }
 
-.back_ground1{
-background-image: url("./Assets/Images/Mask\ Group\ 1.svg");
-background-size: cover;
-background-repeat: no-repeat;
-height: 715px;
+.back_ground1 {
+    background-image: url("./Assets/Images/Mask\ Group\ 1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 760px;
+    /* height: 100%; */
 }
 
-.head1{
+.head1 {
     color: #FDEDED;
     font-family: 'Roboto Slab', serif;
     size: 10px;
@@ -333,7 +356,7 @@ height: 715px;
     margin-bottom: 20px;
 }
 
-.head2{
+.head2 {
     font-family: 'Roboto Slab', serif;
     font-weight: bolder;
     margin-bottom: 55px;
@@ -341,7 +364,7 @@ height: 715px;
     /* margin-left: 69px; */
 }
 
-.paragraph{
+.paragraph {
     color: #FDEDED;
     font-family: 'Poppins', sans-serif;
     font-size: 19px;
@@ -351,7 +374,7 @@ height: 715px;
     opacity: 60%;
 }
 
-#but{
+#but {
     position: relative;
     /* margin-top: 140px; */
     /* margin-left: 80px; */
@@ -364,31 +387,31 @@ height: 715px;
     border: none;
 }
 
-#sub{
-font: normal normal bold 15px/33px Poppins;
-letter-spacing: 0px;
-color: #FFFFFF;
-text-transform: capitalize;
-opacity: 1
+#sub {
+    font: normal normal bold 15px/33px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1
 }
 
-#formm .inputt{
+#formm .inputt {
     margin-bottom: 60px;
 }
 
-#formm .inputt label{
+#formm .inputt label {
     color: #171717;
     font-size: 12px;
     font-weight: 600;
-    font-family:'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 15px;
 }
 
-#formm .inputt input[type=text]{
+#formm .inputt input[type=text] {
     background-color: #FDEDED;
     color: #4B4B4B;
     font-weight: 500;
-    font-family:'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     outline: none;
     border: none;
@@ -397,17 +420,17 @@ opacity: 1
     width: 300px;
 }
 
-#formm .inputt input[type=text]:focus{
+#formm .inputt input[type=text]:focus {
     color: #4B4B4B;
     font-weight: 500;
 }
 
-#formm .inputt textarea{
+#formm .inputt textarea {
     background-color: #FDEDED;
     color: #4B4B4B;
     font-weight: 500;
     font-size: 16px;
-    font-family:'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     outline: none;
     border: none;
 
@@ -415,15 +438,91 @@ opacity: 1
     /* width: 100%; */
 }
 
+/*  
+    #########################
+    ############### FOOTER
+    ############################
+*/
+
+#footer {
+    background-color: var(--back2);
+    padding: 5em 0 0 0;
+    height: 500px;
+}
+
+
+#footer .fut_cont1 p{
+    padding-top: 3em;
+
+    color: var(--text2);
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7em;
+    font-weight: 300;
+    width: 75%;
+
+    margin-bottom: 2em;
+}
+
+#footer .fut_cont1 .social{
+    margin-right: 1em;
+}
+
+#footer .fut_cont1 .social img{
+    height: 2em;
+    width: 2em;
+}
+
+#footer .fut_cont2 p{
+    font-size: 1em;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    color: var(--text2);
+}
+
+#footer .fut_cont2 p a{
+    color: var(--text2);
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    width: 100%;
+
+    text-decoration: none;
+    margin-bottom: 0.8em;
+}
+
+#footer .fut_cont2 p a:hover{
+    /* text-decoration: underline; */
+    border-bottom: 1px solid var(--text2);
+}
+
+#footer hr{
+    margin-top: 2.5em;
+    height: 3px;
+    background: var(--text2);
+}
+
+#footer .ftext{
+    text-align: center;
+    color: var(--text2);
+    font-size: 1em;
+    margin: 1em 0;
+}
+
 ::placeholder {
     color: #D1D1D1;
-    opacity: 1; /* Firefox */
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #D1D1D1;;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
     color: #D1D1D1;
-  }
+    ;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #D1D1D1;
+}
