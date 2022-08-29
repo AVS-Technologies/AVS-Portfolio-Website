@@ -308,7 +308,7 @@ body {
     width: 100%;
 }
 
-.im .kabra {
+.im .hidee {
     /* display: none; */
     visibility: hidden;
     margin-top: -225px;
@@ -318,7 +318,7 @@ body {
     opacity: 0.8;
 }
 
-.im .kabra:hover {
+.im .hidee:hover {
     /* display:block; */
     visibility: visible;
     margin-top: -225px;
